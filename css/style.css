@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-image: linear-gradient( to right, rgb(179, 35, 131), rgb(63, 63, 202));
+}
+#logo img{
+    position: absolute;
+    left: 40vw;
+    height: 7vw;
+}
+
+
+#botao button{
+    position: relative;
+    height: 13vw;
+    margin-top: 15vw;
+    margin-left: 30vw;
+    border-collapse: collapse;
+    cursor: pointer;
+    border-radius: 2vw;
+    font-size: 4vw;
+    width: 40vw;
+}
+button:hover{
+    box-shadow: 2px 2px #000000;
+    background-color: rgb(226, 150, 201);
+}
+
+h2{
+    font-size: 3vw;
+    left: 60vw;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 3vw;
+}
+#esc{
+    margin-left: 35vw;
+    margin-top: 4vw;
+}
+
+input{
+    width: 15vw;
+    height: 4.5vw;
+    text-align: center;
+    border-radius: 2vw;
+   
+
+}
+#add{
+    height: 5vw;
+    left: 22vw;
+    border-radius: 1vw;
+    width: 10vw;
+}
+#tab{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2vw;
+    margin-left: 32vw;
+    background-color:  rgb(236, 177, 236);
+    border-collapse: collapse;
+    width: 35vw;
+}
+#tab th{
+    width: 35vw;
+}
+#frases{
+    font-size: 3vw;
+    position: relative;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    margin-top: 4vw;
+}
+#imagens{
+    margin-top: 1vw;
+    width: 40vw;
+    height: 45vw;
+    margin-left: 30vw;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 3vw;
+    background-image: linear-gradient( to right, rgba(179, 35, 131, 0.329), rgba(63, 63, 202, 0.301));
+}
+
+@media screen and (max-width: 992px) {
+
+    #logo img{
+        margin-top: 6vw;
+        width: 30vw;
+        height: 10vh;
+        margin-right: 30vw;
+    }
+    #botao button{
+        margin-top: 40vw;
+    }
+
+    h2{
+        font-size: 7vw;
+    }
+
+    input{
+        width: 20vw;
+        height: 10vw;
+    }
+
+    #add{
+        height: 10vw;
+    }
+    #tab{
+        height: 7vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   
+    #botao button{
+        margin-top: 25vw;
+        margin-left: 35vw;
+    }
+
+    #esc{
+        margin-left: 30vw;
+    }
+
+    input{
+        width: 30vw;
+    }
+
+    #add{
+        width: 20vw;
+    }
+
+    #tab{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 416px){
+
+    #botao button{
+        margin-top: 25vh;
+    }
+    
+    #tab{
+        background-color:  rgb(236, 177, 236);
+    }
+
+    h2{
+        margin-top: 8vw;
+    }
+    #frases{
+        margin-top: 5vh;
+    }
+}
